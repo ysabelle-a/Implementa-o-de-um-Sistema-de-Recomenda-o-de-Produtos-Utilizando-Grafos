@@ -1,0 +1,9 @@
+[package]
+name = "search_system"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+hashbrown = "0.16.0"
+regex = "1.11.3"
+serde = { version = "1.0.228", features = ["derive"] }
